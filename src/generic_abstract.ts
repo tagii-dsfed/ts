@@ -21,8 +21,6 @@ class Subclass1 extends BaseClass<ConcreteClass> {
 
 }
 
-class Subclass2 extends BaseClass<ConcreteWrongClass> {}  // compilation error
-
 const subclass1 = new Subclass1();
 
 const concrete = new ConcreteClass();
